@@ -5,3 +5,7 @@ cache: bundler
 rvm:
   - 2.3.1
 before_install: gem install bundler -v 2.0.2
+script:
+  - bundle exec rspec spec
+after_script:
+  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT

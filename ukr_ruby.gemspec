@@ -5,19 +5,19 @@ require "ukr_ruby/version"
 Gem::Specification.new do |spec|
   spec.name          = "ukr_ruby"
   spec.version       = UkrRuby::VERSION
-  spec.authors       = ["applemaclife"]
+  spec.authors       = ["edzyo"]
   spec.email         = ["makogin1995@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Write a short summary, because RubyGems requires one.}
+  spec.description   = %q{Write a longer description or delete this line.}
+  spec.homepage      = "https://github.com/edzyo/urk_ruby"
   spec.license       = "MIT"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+  spec.metadata["allowed_push_host"] = ": Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+ # spec.metadata["source_code_uri"] = ": Put your gem's public repo URL here."
+ # spec.metadata["changelog_uri"] = ": Put your gem's CHANGELOG.md URL here."
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
